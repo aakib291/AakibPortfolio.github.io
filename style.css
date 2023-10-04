@@ -1,0 +1,157 @@
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(1, 35, 63);
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 75px;
+  background-color: rgb(1, 57, 102);
+}
+nav ul {
+  display: flex;
+  justify-content: center;
+}
+nav ul li {
+  list-style: none;
+  margin: 0 23px;
+}
+nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+nav ul li a:hover {
+  /* text-decoration: none; */
+  color: rgb(225 164 229);
+  font-size: 1.2rem;
+}
+main hr {
+  border: 0;
+  background: rgba(2, 141, 255, 0.699);
+  height: 3px;
+  margin: 30px 80px;
+}
+.left {
+  font-size: 1.5rem;
+}
+.firstSection {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 40px 0;
+}
+.firstSection > div {
+  /* background-color: red; */
+  width: 30%;
+  /* height: 1ś0%; */
+}
+
+.leftSection {
+  /* background-color: red; */
+  /* width: 100%; */
+
+  font-size: 2.7rem;
+  /* margin: 70px 0; */
+}
+.leftSection .buttons {
+  padding: 30px 0;
+}
+.leftSection .btn {
+  background: rgb(1, 35, 63);
+  color: white;
+  border: 2px solid white;
+  border-radius: 25px;
+  font-size: 15px;
+  padding: 10px 10px;
+  cursor: pointer;
+  /* text-decoration: aliceblue; */
+}
+.leftSection .btn a {
+  text-decoration: aliceblue;
+  color: white;
+}
+
+.rightSection img {
+  height: 70%;
+  width: 100%;
+  margin: 20px 0;
+}
+.purple {
+  color: rgb(225 164 229);
+}
+.textGrey {
+  color: rgb(179, 178, 178);
+}
+#element {
+  color: rgb(225 164 229);
+}
+.secondSection {
+  max-width: 80vw;
+  margin: auto;
+  height: 90vh;
+}
+.secondSection h1 {
+  font-size: 1.8rem;
+}
+.secondSection .box {
+  background: white;
+  width: 80vw;
+  height: 2px;
+  margin: 56px 0;
+  display: flex;
+}
+.secondSection .vertical {
+  background-color: white;
+  height: 93px;
+  width: 1px;
+  margin: 0 110px;
+}
+.image-top {
+  width: 35px;
+  position: relative;
+  top: -46px;
+  right: 16px;
+}
+.vertical-title {
+  position: relative;
+  right: 29px;
+  top: 49px;
+  font-size: 15px;
+}
+.vertical-desc {
+  position: relative;
+  top: 66px;
+  left: -59px;
+  width: 150px;
+  color: rgb(179, 178, 178);
+  font-size: 9px;
+}
+footer {
+  background-color: rgb(10, 31, 49);
+  /* height: 250px; */
+}
+.footer {
+  display: flex;
+  padding: 23px 123px;
+  justify-content: space-evenly;
+}
+.footer ul {
+  list-style: none;
+}
+.footer > div {
+  width: 213px;
+}
+footer .footer-rights {
+  text-align: center;
+  color: grey;
+  padding: 12px 0;
+}
