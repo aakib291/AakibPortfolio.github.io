@@ -31,7 +31,7 @@ nav ul li a {
 nav ul li a:hover {
   /* text-decoration: none; */
   color: rgb(225 164 229);
-  font-size: 1.2rem;
+  font-size: 1.3rem;
 }
 main hr {
   border: 0;
@@ -154,6 +154,16 @@ footer .footer-rights {
   color: grey;
   padding: 12px 0;
 }
+footer a {
+  color: aliceblue;
+  text-decoration: none;
+}
+footer a:hover {
+  color: aliceblue;
+  text-decoration: none;
+  color: rgb(225 164 229);
+  font-size: 1.2rem;
+}
 
 @media screen and (max-width: 1300px) {
   body {
@@ -212,5 +222,5 @@ footer .footer-rights {
   }
   .image-top {
     right: 45px;
-}
+  }
 }
